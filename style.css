@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: ghostwhite;
+}
+.form-row {
+    padding-left: 50px;
+}
+.form-group{
+    margin-top: 50px;
+}
+/* .package-col1 .package-col2 .package-col3 {
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+   margin-top: 10px;
+   
+} */
+.package-col1{
+    background-color: #deb887c4;
+    width: 95%;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4a4a4a;
+}
+
+.package-col2{
+    background-color: rgb(8 234 157 / 15%);
+    width: 95%;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4a4a4a;
+}
+.package-col3{
+    /* background-color: rgb(43 185 136 / 43%); */
+    display: flex;
+    width: 95%;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #4a4a4a;
+}
+.login_links{
+    text-indent: 2px;
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.nav-link{
+    font-weight: 500;
+}
+.section{
+    padding-top: 30px;
+}
+
+.btn{
+    margin-left: 173px;
+    margin-top: 10px;
+}
+.layerpart{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(216, 193, 163);
+    text-align: center;
+    justify-content: center;
+    margin-top: 116px;
+    border-radius: 10px;
+}
+.layerpart1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(173, 233, 235);
+    text-align: center;
+    justify-content: center;
+    margin-top: 116px;
+    border-radius: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(253 253 253);
+}
+.footer-col{
+    width: 25%;
+    
+}
+.footer{
+    background-color: rgb(0, 57, 128);
+    color: #fff;
+}
+.hrlink{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+.adminlink{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+.footer-col .fa{
+color: darkgoldenrod;
+font-size: 30px;
+cursor: pointer;
+}
+.footer-col .fa-forward, .fa-backward{
+    font-size: 35px;
+    color: rgb(197, 91, 157);
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.layerpart .lt{
+    color: black;
+    font-weight: 500;
+}
+.layerpart1 .lt{
+    color: black;
+    font-weight: 500;
+}
+.footer-col .hrlink{
+    margin-top: 10px;
+    display: flex;
+    padding-top: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.footer-col .adminlink{
+    margin-top: 10px;
+    display: flex;
+    padding-top: 30px;
+    color: #fff;
+}
+.package-col3 .layer table{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: inherit;
+    line-height: 0px;
+    width: 100%;
+    height: 400px;
+}
+.layer th,.layer td{
+    border: 1px solid rgb(39, 39, 39);
+  
+}
+.layer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    
+    color: white;
+  }
+  .layer .first{
+      background-color: cadetblue;
+  }
+  .layer .second{
+      background-color: chocolate;
+      padding: 3px;
+  }
+  .layer .three{
+      background-color: khaki;
+      color: rgb(204, 47, 100);
+      padding: 8px;
+  }
+  .layer .four{
+      background-color: tan;
+      padding: 2px 15px;
+      border-radius: 4px;
+      width: 220px;
+  }
+ 
+  .tablecontainer{
+    margin-top: 30px;
+  }
+  .table thead th {
+      border: 1px solid black;
+  }
+  .table-bordered td, .table-bordered th{
+    border: 1px solid black;
+  }
+  
+    .info1 {
+        
+        flex-direction: row;
+        padding: 8px;
+        line-height: 1px;
+    }
+  
+  .infos{
+    display: flex;
+    text-align: center;
+    line-height: 13px;
+    margin-left: -59px;
+  }
+  .border{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .content .name {
+    margin-right: .5rem;
+    margin-bottom: 0;
+    display: inline;
+
+}
+.bold-display {
+    font-size: 1.75rem;
+    line-height: 1.43;
+}
+.content{
+    margin-left: 20px;
+}
+.tablecontent .tr .td{
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+.th, .td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .par{
+      font-size: 12px;
+  }

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-light {
+    background-color: rgb(0, 57, 128)!important;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'ralewayextrabold';
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 5px;
+    font-family: 'ralewayextrabold';
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'ralewayextrabold';
+}
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.marquee{
+    color: #fff;
+    background-color: rgba(0, 58, 128, 0.918);
+    font-size: 18px;
+}
+.frame{
+    box-shadow: 0 0 10px rgb(0, 57, 128)10px rgb(0 58 128 / 60%) ;
+    margin-top: 26px;
+}
+.frame1 {
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%) ;
+    margin-top: 26px;
+}
+.frame2 {
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%) ;
+    margin-top: 26px;
+}
+.frame3 {
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%) ;
+    margin-top: 26px;
+}
+.frame4 {
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%) ;
+    margin-top: 26px;
+}
+.carousel-inner{
+    margin-top: 30px;
+}
+.modal{
+    padding-top: 10px;
+}
+section{
+    margin: auto;
+    width: 95%;
+    height: 350px;
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%);
+}
+.btn{
+    justify-items: center;
+    margin: auto;
+    text-align: center;
+    background-color: #0000ffb3;
+    color: #fff;
+    margin-left: 140px;
+    font-weight: 500;
+}
+.btn:hover{
+    color: #fff;
+    font-weight: 500;
+}
+.header{
+    margin: auto;
+    justify-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.about{
+    box-shadow: 0 0 10px 10px rgb(0 58 128 / 60%) ;
+    margin: auto;
+    width: 95%;
+    height: 390px;
+    /* height: 505px; */
+    justify-items: center;
+    text-align: center;
+}
+.collapse{
+    margin-right: 50px;
+}
+.header h1{
+    padding: 15px;
+}
+.biodata{
+    margin-left: 50px;
+}
+.biodata .biodata_link{
+    font-size: 15px;
+}
+.biodata .biodata_link span{
+    font-style: italic;
+
+}
+ol .biodata_links span{
+    font-style: italic;
+    font-size: 15px;
+}
+ol{
+    font-size: 15px;
+    margin-left: 53px;
+    /* line-height: 27px; */
+    position: absolute;
+    top: 96%;
+}
+.footerline{
+    background-color: rgb(0, 57, 128);
+    width: 100%;
+    height: auto;
+}
